@@ -27,4 +27,7 @@ A quiz follows afterwards and is supposed to be the first activity for the stude
 
 ### Assignment
 An assignment is the last part of this workshop. A small introduction is made by the presenting students including an explanation of the context and a task description in general. A final slide shows the task description and expected outcomes of the assignment.
-After introducing the task, the workshop participants will execute a provided docker-compose file which starts ...
+After introducing the task, the workshop participants will execute a provided docker-compose file which starts ... //
+
+MQTT Pub/Sub: https://github.com/eclipse/mosquitto //
+MQTT Explorer used in image: https://github.com/Smeagolworms4/MQTT-Explorer
