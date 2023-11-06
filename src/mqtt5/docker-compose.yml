@@ -16,17 +16,15 @@ services:
   # Mosquitto Client 1
   mosquitto-client-1:
     image: eclipse-mosquitto
-    command: mosquitto_sub -h mqtt5 -t test-topic -u user1 -P philip
     depends_on:
       - mqtt5
 
   # Mosquitto Client 2
   mosquitto-client-2:
     image: eclipse-mosquitto
-    command: mosquitto_sub -h mqtt5 -t test-topic -u user1 -P philip
     depends_on:
       - mqtt5
-  
+
   mqtt-explorer:
     image: smeagolworms4/mqtt-explorer
     ports:
