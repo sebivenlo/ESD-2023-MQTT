@@ -6,7 +6,7 @@ Make sure, that either *docker-compose-plugin* or *docker-compose* is installed 
 
 1. Open Ubuntu-Terminal (WSL) in this directory
 2. Paste 'chmod +x ./startAssignment-Ubuntu.sh'
-3. /startAssignment-Ubuntu.sh'
+3. Paste '/startAssignment-Ubuntu.sh'
 
 Errors? Try *sudo* before step 2 and 3!
 
