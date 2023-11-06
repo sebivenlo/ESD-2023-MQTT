@@ -9,3 +9,7 @@
    - Username = user1
    - Password = philip
    - Turn encryption and certificate off!
+  
+
+# Useful for testing
+Publish message: mosquitto_pub -h mqtt5 -t 'test/topic' -m 'message payload' -u user1 -P philip 
