@@ -1,0 +1,11 @@
+{
+    "mqtt_broker": {
+      "host": "cccc",
+      "port": 1883,
+      "credentials": {
+        "username": "user1",
+        "password": "philip"
+      }
+    }
+  }
+  
