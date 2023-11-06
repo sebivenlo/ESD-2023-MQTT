@@ -11,8 +11,27 @@ services:
       - ./config:/mosquitto/config:rw
       - ./data:/mosquitto/data:rw
       - ./log:/mosquitto/log:rw
+    command: mosquitto -c /mosquitto/config/mosquitto.conf
 
-# volumes for mapping data,config and log
+  # Mosquitto Client 1
+  mosquitto-client-1:
+    image: eclipse-mosquitto
+    depends_on:
+      - mqtt5
+
+  # Mosquitto Client 2
+  mosquitto-client-2:
+    image: eclipse-mosquitto
+    depends_on:
+      - mqtt5
+
+  mqtt-explorer:
+    image: smeagolworms4/mqtt-explorer
+    ports:
+      - "4000:4000"
+    depends_on:
+      - mqtt5
+
 volumes:
   config:
   data:
