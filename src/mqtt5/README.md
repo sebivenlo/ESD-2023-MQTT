@@ -1,10 +1,14 @@
 # Assignment
 
-## Ubuntu setup
+Make sure, that either *docker-compose-plugin* or *docker-compose* is installed on your local machine/WSL!
+
+## WSL/Ubuntu setup
 
 1. Open Ubuntu-Terminal (WSL) in this directory
 2. Paste 'chmod +x ./startAssignment-Ubuntu.sh'
 3. /startAssignment-Ubuntu.sh'
+
+Errors? Try *sudo* before step 2 and 3!
 
 ## Powershell setup
 
