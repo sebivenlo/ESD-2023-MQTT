@@ -25,7 +25,7 @@ Errors? Try *sudo* before step 2 and 3!
    - Username = user1
    - Password = philip
    - Turn encryption and certificate off!
-4. Select WebApp-Terminal and subscribe for topic: sensor/temperature
+4. Select WebApp-Terminal and subscribe for topic: temperature
    - Specify host and topic of the subscription. Remember to include the credentials (same as for Broker login)
 5. Select TemperatureSensor-Terminal and publish a message under the specified topic.
    - Specify host and topic of the subscription. Remember to include the credentials (same as for Broker login)
