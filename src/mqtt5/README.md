@@ -25,15 +25,7 @@ Errors? Try *sudo* before step 2 and 3!
    - Username = user1
    - Password = philip
    - Turn encryption and certificate off!
-4. Select WebApp-Terminal and subscribe for topic: sensor/temperature
+4. Select WebApp-Terminal and subscribe for topic: temperature
    - Specify host and topic of the subscription. Remember to include the credentials (same as for Broker login)
 5. Select TemperatureSensor-Terminal and publish a message under the specified topic.
    - Specify host and topic of the subscription. Remember to include the credentials (same as for Broker login)
-  
-
-# Useful for testing (solution for assignment)
-Subscribe topic and print message: 
-- mosquitto_sub -h mqtt5 -t 'test/topic' -u user1 -P philip -v
-  
-Publish message: 
-- mosquitto_pub -h mqtt5 -t 'test/topic' -m 'message payload' -u user1 -P philip 

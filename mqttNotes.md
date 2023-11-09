@@ -42,6 +42,14 @@ HiveMQ<br>
 Mosca<br>
 Tools<br>
 
+### Assignment solution
+
+Subscribe topic and print message: 
+- mosquitto_sub -h mqtt5 -t 'test/topic' -u user1 -P philip -v
+  
+Publish message: 
+- mosquitto_pub -h mqtt5 -t 'test/topic' -m 'message payload' -u user1 -P philip 
+
 MQTT.fx (Desktop Client)<br>
 MQTT.js (JavaScript Library)<br>
 Paho (MQTT Libraries for Various Languages)<br>
