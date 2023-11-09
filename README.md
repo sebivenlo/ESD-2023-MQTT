@@ -27,7 +27,11 @@ A quiz follows afterwards and is supposed to be the first activity for the stude
 
 ### Assignment
 An assignment is the last part of this workshop. A small introduction is made by the presenting students including an explanation of the context and a task description in general. A final slide shows the task description and expected outcomes of the assignment.
-After introducing the task, the workshop participants will execute a provided docker-compose file which starts ... //
+After introducing the task, the workshop participants will execute a provided docker-compose file which starts two terminals and a new browser window.
+
+The terminals represent clients. The browser window is a MQTT Explorer (also a client), but it has no other purpose than observing incoming and outgoing messages.
+The two clients are used as publisher and subscriber. A temperature sensor is used to publish a new temperature value with a specified topic. The web app represents the subscriber and needs to subscribe the topic beforehand.
+A more detailed task description with technical hints can be found in the src directory.
 
 MQTT Pub/Sub: https://github.com/eclipse/mosquitto //
 MQTT Explorer used in image: https://github.com/Smeagolworms4/MQTT-Explorer
