@@ -8,4 +8,4 @@ gnome-terminal --title "Temperature Sensor" -- docker exec -it mqtt5_mosquitto-c
 gnome-terminal --title "WebApp" -- docker exec -it mqtt5_mosquitto-client-2_1 /bin/sh
 
 # Open a web browser to https://localhost
-# xdg-open http://localhost:4000
+xdg-open http://localhost:4000
