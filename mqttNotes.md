@@ -50,6 +50,8 @@ Subscribe topic and print message:
 Publish message: 
 - mosquitto_pub -h mqtt5 -t 'test/topic' -m 'message payload' -u user1 -P philip 
 
+Find more information: https://github.com/sukesh-ak/setup-mosquitto-with-docker
+
 MQTT.fx (Desktop Client)<br>
 MQTT.js (JavaScript Library)<br>
 Paho (MQTT Libraries for Various Languages)<br>

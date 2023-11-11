@@ -22,8 +22,8 @@ Errors? Try *sudo* before step 2 and 3!
 3. Create new connection:
    - Host = mqtt5
    - Port = 1883
-   - Username = user1
-   - Password = philip
+   - Username = esdWorkshop
+   - Password = esd2023
    - Turn encryption and certificate off!
 4. Select WebApp-Terminal and subscribe for topic: temperature
    - Specify host and topic of the subscription. Remember to include the credentials (same as for Broker login)
