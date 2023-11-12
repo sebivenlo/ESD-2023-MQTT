@@ -24,6 +24,8 @@ The presentation will provide an introduction to MQTT in general. It addresses i
 
 ### Quiz
 A quiz follows afterwards and is supposed to be the first activity for the students. It aims at repeating the presented information to ensure that students definetely memorize it.
+A local version with answers can be found by following this link: https://github.com/sebivenlo/ESD-2023-MQTT/blob/4b0410e78abb988b8f2aa0c666c7ec2d09ea9f4f/ESDE%20MQTT%20Quiz.md
+The online version can be found on quizziz: https://quizizz.com/admin/quiz/654d0c656188ac4cc4f8c0e5?searchLocale=
 
 ### Assignment
 An assignment is the last part of this workshop. A small introduction is made by the presenting students including an explanation of the context and a task description in general. A final slide shows the task description and expected outcomes of the assignment.
